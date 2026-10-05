@@ -43,7 +43,7 @@
         .col-xl
           .box___style_2.color___2.fit___box_2(data-aos="fade-left").mb-3
             p.mb-0 La calidad no se limita a la ausencia de errores. También comprende el cumplimiento, la utilidad, la estabilidad y la capacidad del producto para adaptarse a cambios futuros.
-          p.mb-0 En la siguiente tabla se presentan los principales aspectos permiten valorar el comportamiento integral del producto:
+          p.mb-0 En la siguiente tabla se presentan los principales aspectos que permiten valorar el comportamiento integral del producto:
       .bg___color_1
         .px-5
           .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
@@ -557,7 +557,7 @@
         .col
           h3 Priorización de factores según necesidades del cliente
       p No todos los factores tienen el mismo nivel de importancia. Su priorización depende del tipo de producto, los riesgos, el número de usuarios, la información gestionada y el impacto organizacional.
-      p.mb-5 En la siguiente tabla se presentan los sistemas requieren combinaciones diferentes de factores prioritarios:
+      p.mb-5 En la siguiente tabla se presentan los sistemas que requieren combinaciones diferentes de factores prioritarios:
       .bg___color_1
         .px-5
           .row.justify-content-center.mb-5

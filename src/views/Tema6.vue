@@ -412,23 +412,23 @@
                   tbody
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Organizar la gestión de calidad de la organización.
-                      td.ajuste-border-tabla.texto-left ISO 9001.
+                      td.ajuste-border-tabla.texto-left ISO 9001
                       td.texto-left Orienta procesos, documentación, enfoque al cliente y mejora.
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Evaluar capacidad de procesos específicos.
-                      td.ajuste-border-tabla.texto-left SPICE.
+                      td.ajuste-border-tabla.texto-left SPICE
                       td.texto-left Permite analizar qué tan capaz es cada proceso.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Mejorar madurez organizacional.
-                      td.ajuste-border-tabla.texto-left CMM.
+                      td.ajuste-border-tabla.texto-left CMM
                       td.texto-left Ofrece una ruta progresiva de evolución de procesos.
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Analizar calidad del producto #[i software].
-                      td.ajuste-border-tabla.texto-left McCall.
+                      td.ajuste-border-tabla.texto-left McCall
                       td.texto-left Organiza factores de operación, revisión y transición.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Atender una necesidad puntual del cliente.
-                      td.ajuste-border-tabla.texto-left #[i Ad hoc] documentado.
+                      td.ajuste-border-tabla.texto-left #[i Ad hoc] documentado
                       td.texto-left Permite adaptar criterios al contexto específico.
           .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
             .bloque-texto-g__img(
@@ -791,22 +791,22 @@
                       th.texto-left Pregunta de control
                   tbody
                     tr
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Requisitos.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Requisitos
                       td.texto-left ¿Todos los requisitos están claros y aprobados?
                     tr.ajuste-color-tabla
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Arquitectura.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Arquitectura
                       td.texto-left ¿La estructura propuesta soporta las necesidades del sistema?
                     tr
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Datos.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Datos
                       td.texto-left ¿La información está organizada sin duplicidades innecesarias?
                     tr.ajuste-color-tabla
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Interfaces.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Interfaces
                       td.texto-left ¿Las pantallas facilitan las tareas del usuario?
                     tr
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Componentes.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Componentes
                       td.texto-left ¿Cada módulo tiene una responsabilidad clara?
                     tr.ajuste-color-tabla
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Calidad.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Calidad
                       td.texto-left ¿El diseño considera seguridad, usabilidad, eficiencia y mantenibilidad?
           p.mb-0 Las buenas prácticas de calidad deben adaptarse a la complejidad del proyecto, evitando documentación innecesaria y garantizando el control requerido. Su aplicación desde el diseño favorece la prevención de fallas, la trazabilidad, la gestión de cambios y la construcción de #[i software] confiable.
           Separador

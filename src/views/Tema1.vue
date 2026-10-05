@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Diseño de #[i software] y requisitos del cliente.
+        h1 Diseño de #[i software] y requisitos del cliente
       p.mb-5 El diseño de #[i software] constituye una etapa fundamental para orientar la construcción de sistemas de información acordes con las necesidades del cliente y las condiciones de la organización. Su adecuada planificación permite anticipar dificultades, reducir la improvisación y coordinar las decisiones que intervienen antes de la codificación. En este contexto, el diseño articula las necesidades organizacionales con la propuesta técnica y establece una base para abordar su propósito, la interpretación de los requisitos, los elementos que lo conforman y su relación con la calidad.
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.1 Concepto y propósito del diseño de #[i software]
@@ -447,7 +447,7 @@
           .box___style_2.color___1(data-aos="fade-right").mb-3
             h5 Relación entre los elementos del diseño
             p.mb-0 Los elementos del diseño funcionan de manera articulada. La arquitectura establece la estructura general; los datos organizan la información; las interfaces permiten la interacción; y los componentes distribuyen la lógica funcional.
-          p.mb-0 Cada elemento responde una pregunta específica y aporta una perspectiva necesaria para estructurar la solución. 
+          p.mb-0 Cada elemento responde a una pregunta específica y aporta una perspectiva necesaria para estructurar la solución. 
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t1/img39.jpg', alt='' style="width: 500px").m-auto
@@ -763,7 +763,7 @@
             .col
               h4.mb-4 Pódcast
               TarjetaAudio.color-acento-contenido.mb-4(
-                  texto="Del requisito a la solución: la ruta de la trazabilidad"
+                  texto="&quot;Del requisito a la solución: la ruta de la trazabilidad&quot;"
                   :audio="audio1"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )

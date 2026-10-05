@@ -231,7 +231,7 @@
       p.mb-0 Los modelos ayudan a identificar diferencias entre las necesidades del cliente y las condiciones del producto. Estas brechas pueden relacionarse con interfaces confusas, baja seguridad, mantenimiento complejo o rendimiento deficiente.
       Separador
       #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 4.2 Modelo de calidad #[i McCall]
+        h2 4.2 Modelo de calidad McCall
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img22.jpg')})` }")
@@ -537,7 +537,7 @@
       p.mb-0 El modelo integra condiciones de operación, revisión y transición. Su aplicación orienta la construcción de productos funcionales, confiables, mantenibles y adaptables.
       Separador
       #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 4.3 Modelo de calidad #[i Ad hoc]
+        h2 4.3 Modelo de calidad #[i ad hoc]
       .row.justify-content-center.align-items-center.mb-5
         .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
           figure
@@ -594,20 +594,20 @@
           .col-xl-auto.order-1.order-lg-2
             figure
               img(src='@/assets/curso/temas/t4/img47.png', alt='' style="width: 500px").m-auto
-      p.mb-5 El enfoque también permite establecer criterios específicos para las necesidades de un producto determinado. Los siguientes criterios ad hoc se aplican a un sistema de reservas:
+      p.mb-5 El enfoque también permite establecer criterios específicos para las necesidades de un producto determinado. Los siguientes criterios #[i ad hoc] se aplican a un sistema de reservas:
       .bg___color_1
         .px-5
           .row.justify-content-center.mb-5
             .col-xl-8
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                 h5 Tabla 19.
-                span Ejemplo de criterios #[i Ad hoc] para un sistema de reservas
+                span Ejemplo de criterios #[i ad hoc] para un sistema de reservas
               .tabla-a(data-aos="zoom-in")
                 table
                   thead
                     tr
                       th.ajuste-border-tabla.texto-left Necesidad específica
-                      th.ajuste-border-tabla.texto-left Criterio #[i Ad hoc] definido
+                      th.ajuste-border-tabla.texto-left Criterio #[i ad hoc] definido
                       th.texto-left Forma de observarlo
                   tbody
                     tr.ajuste-color-tabla
@@ -750,7 +750,7 @@
                     h3 Uso recomendado
                     p #[b McCall:] proyectos medianos o grandes que requieren una evaluación estructurada.
                     p.mb-0 #[b #[i Ad hoc]:] proyectos pequeños, prototipos o sistemas con necesidades particulares.
-      p.mb-5 Para seleccionar entre un modelo estructurado y un enfoque #[i Ad hoc], conviene analizar primero qué espera el cliente del producto. Si el cliente requiere confiabilidad, mantenimiento futuro, integración y evolución, un modelo como McCall puede ofrecer una guía más completa. Si el cliente necesita una solución puntual, con criterios muy específicos y alcance reducido, un enfoque #[i Ad hoc] puede ser suficiente, siempre que esté bien documentado.
+      p.mb-5 Para seleccionar entre un modelo estructurado y un enfoque #[i ad hoc], conviene analizar primero qué espera el cliente del producto. Si el cliente requiere confiabilidad, mantenimiento futuro, integración y evolución, un modelo como McCall puede ofrecer una guía más completa. Si el cliente necesita una solución puntual, con criterios muy específicos y alcance reducido, un enfoque #[i ad hoc] puede ser suficiente, siempre que esté bien documentado.
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img62.jpg')})` }")
@@ -802,22 +802,22 @@
                   thead
                     tr
                       th.ajuste-border-tabla.texto-left Factor general tomado de McCall
-                      th.texto-left Criterio específico #[i Ad hoc]
+                      th.texto-left Criterio específico #[i ad hoc]
                   tbody
                     tr.ajuste-color-tabla
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Facilidad de uso.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Facilidad de uso
                       td.texto-left Los instructores deben registrar notas sin requerir asistencia técnica.
                     tr
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Integridad.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Integridad
                       td.texto-left El sistema no debe permitir notas fuera del rango definido.
                     tr.ajuste-color-tabla
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Confiabilidad.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Confiabilidad
                       td.texto-left Los registros guardados deben mantenerse disponibles para consulta posterior.
                     tr
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Mantenibilidad.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Mantenibilidad
                       td.texto-left El administrador debe poder actualizar periodos académicos sin modificar código.
                     tr.ajuste-color-tabla
-                      td.ajuste-border-tabla.texto-left.text-weight-bold Portabilidad.
+                      td.ajuste-border-tabla.texto-left.text-weight-bold Portabilidad
                       td.texto-left El sistema debe funcionar en navegadores usados por la institución.
           .row.justify-content-center.align-items-center.mb-5
             .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
@@ -875,7 +875,7 @@
               p.mb-3 Se requiere mayor formalidad, trazabilidad y aplicación de estándares.
             .row(titulo="Riesgo crítico").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Deben aplicarse modelos, normas, controles y evaluaciones rigurosas.
-      p.mb-0 McCall proporciona una estructura amplia para evaluar la calidad, mientras que el enfoque ad hoc permite adaptar los criterios al contexto. Su selección o combinación debe responder a las necesidades del cliente, la madurez organizacional y el nivel de riesgo.
+      p.mb-0 McCall proporciona una estructura amplia para evaluar la calidad, mientras que el enfoque #[i ad hoc] permite adaptar los criterios al contexto. Su selección o combinación debe responder a las necesidades del cliente, la madurez organizacional y el nivel de riesgo.
 
 </template>
 

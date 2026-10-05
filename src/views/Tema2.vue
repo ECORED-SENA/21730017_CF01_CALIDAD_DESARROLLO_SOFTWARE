@@ -484,7 +484,7 @@
               figure
                 img(src="@/assets/curso/temas/t1/img21.png" style="max-width: 60px").m-auto
             .col
-              h3 Desarrollo interactivo
+              h3 Desarrollo iteractivo
           .row.justify-content-center.align-items-center.mb-5
             .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
               figure
@@ -492,7 +492,7 @@
             .col-xl
               .box___style_2.color___2.fit___box_2(data-aos="fade-left").mb-3
                 p.mb-0 El desarrollo iterativo se basa en ciclos de construcción, revisión y ajuste. Cada iteración permite perfeccionar una versión previa, corregir inconsistencias y aclarar progresivamente las expectativas del cliente.
-              p.mb-0 La solución evoluciona mediante un ciclo interactivo que puede repetirse hasta alcanzar el resultado esperado:
+              p.mb-0 La solución evoluciona mediante un ciclo iteractivo que puede repetirse hasta alcanzar el resultado esperado:
       .bg___color_3
         .px-5
           .row.justify-content-center.mb-5
@@ -603,7 +603,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img46.jpg')})` }")
         .bloque-texto-g__texto.p-4
-          h5 Relación entre desarrollo incremental, interactivo y ágil
+          h5 Relación entre desarrollo incremental, iteractivo y ágil
           br
           br
           p Los enfoques pueden integrarse dentro de un mismo proyecto. Una solución ágil puede ser incremental cuando entrega funcionalidades por partes y, al mismo tiempo, iterativa cuando perfecciona cada versión mediante ciclos de revisión y ajuste. 
@@ -812,7 +812,7 @@
                 .row.align-items-center
                   .col-lg.mb-4.mb-lg-0
                     h3 Separar el prototipo
-                    p.mb-0 Separar el prototipo	El código experimental no debe convertirse automáticamente en la base del producto final.
+                    p.mb-0 El código experimental no debe convertirse automáticamente en la base del producto final.
                   .col-auto(data-aos="zoom-in")
                     figure
                       img(src='@/assets/curso/temas/t2/img62.png', alt='' style="width: 300px").m-auto

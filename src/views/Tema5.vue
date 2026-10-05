@@ -382,7 +382,7 @@
             .col-xl.mb-4.mb-lg-0
               .box___style_2(data-aos="fade-right")
                 h5 Ejemplo aplicado
-                p.mb-0 Una organización desarrolla sistemas de información para diferentes clientes. Durante la revisión de sus proyectos identifica cambios tardíos, errores repetitivos, interpretaciones diferentes y afectaciones no previstas entre módulos.
+                p.mb-0 Una organización desarrolla sistemas de información para diferentes clientes. Durante la revisión de sus proyectos, identifica cambios tardíos, errores repetitivos, interpretaciones diferentes y afectaciones no previstas entre módulos.
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/temas/t5/img27.jpg', alt='' style="width: 500px").m-auto
@@ -820,7 +820,7 @@
                     figure
                       img(src='@/assets/curso/temas/t5/img49.png', alt='' style="width: 300px").m-auto
                   .col-lg.fit___pasosA-left
-                    h3 Analizar los resultadosv
+                    h3 Analizar los resultados
                     p.mb-0 Se identifican desviaciones, causas recurrentes y oportunidades de mejora.
                 .row.align-items-center
                   .col-lg.mb-4.mb-lg-0
