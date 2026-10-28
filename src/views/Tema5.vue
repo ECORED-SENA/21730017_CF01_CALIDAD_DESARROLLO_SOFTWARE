@@ -873,7 +873,7 @@
               p.mb-0 La calidad del #[i software] también depende de la manera en que trabaja la organización. Reproduzca el video e identifique cómo los niveles de CMM orientan el paso desde la improvisación hasta la mejora continua.
       figure(data-aos="zoom-in").mb-0
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/yXZTzKXhvk8" title="De la improvisación a la mejora a la mejora continua lo niveles de CMM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.fit___figcaption-video Video. De la improvisación a la mejora continua: los niveles de CMM
       
 </template>
