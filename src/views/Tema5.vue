@@ -18,8 +18,8 @@
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t5/img2.png", alt="" style="width: 350px").m-auto
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+        .col-xl(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="ISO 9001").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Orienta la gestión de la calidad en los procesos de la organización.
             .row(titulo="SPICE").ajuste-cajaAcordion.ajuste-vineta
@@ -131,8 +131,8 @@
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t5/img10.png", alt="" style="width: 300px").m-auto
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+        .col-xl(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Definición de formatos de requisitos").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Mejora la claridad, la consistencia y la trazabilidad de la información.
             .row(titulo="Control de versiones").ajuste-cajaAcordion.ajuste-vineta
@@ -140,8 +140,8 @@
             .row(titulo="Revisión del diseño").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Permite identificar inconsistencias antes de iniciar la codificación.
       .row.align-items-center.mb-5
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+        .col-xl(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Gestión de cambios").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Facilita el análisis del impacto antes de modificar el sistema.
             .row(titulo="Documentación técnica y funcional").ajuste-cajaAcordion.ajuste-vineta
@@ -431,8 +431,8 @@
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t5/img29.png", alt="" style="width: 400px").m-auto
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+        .col-xl(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Proceso").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Conjunto de actividades relacionadas que producen un resultado.
             .row(titulo="Evaluación del proceso").ajuste-cajaAcordion.ajuste-vineta
@@ -606,7 +606,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t5/img36.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -724,13 +724,13 @@
           .col-xl.fit___box_container
             h5 Ejemplo aplicado
             p.mb-0 Una organización desarrolla soluciones para diferentes clientes, pero presenta retrasos, errores repetitivos y documentación inconsistente. El análisis de sus procesos permite establecer acciones progresivas de mejoramiento.
-      p.mb-5 A continuación se realiza el análisis:
+      p.mb-5 A continuación, se realiza el análisis:
       .row.align-items-center.mb-5
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t5/img44.png", alt="" style="width: 400px").m-auto
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+        .col-xl(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Cambios no controlados").ajuste-cajaAcordion.ajuste-vineta
               ul.fa-ul.mb-3
                 li.mb-0

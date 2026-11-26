@@ -24,7 +24,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t4/img2.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -192,7 +192,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t4/img16.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -398,8 +398,8 @@
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t4/img32.png", alt="" style="width: 300px").m-auto
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+        .col-xl(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Portabilidad").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Valora la capacidad del producto para funcionar en diferentes entornos tecnológicos.
             .row(titulo="Reusabilidad").ajuste-cajaAcordion.ajuste-vineta
@@ -796,7 +796,7 @@
             .col-xl-8
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                 h5 Tabla 21.
-                span Ejemplo de combinación para un sistema académico:
+                span Ejemplo de combinación para un sistema académico
               .tabla-a(data-aos="zoom-in")
                 table
                   thead
@@ -865,8 +865,8 @@
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t4/img68.png", alt="" style="width: 350px").m-auto
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+        .col-xl(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Riesgo bajo").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Los criterios #[i ad hoc] pueden ser suficientes cuando se encuentran documentados.
             .row(titulo="Riesgo medio").ajuste-cajaAcordion.ajuste-vineta

@@ -76,7 +76,7 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'Desarrollo incremental, iteractivo y ágil',
+            titulo: 'Desarrollo incremental, iterativo y ágil',
             hash: 't_2_3',
           },
           {
@@ -390,7 +390,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable del ecosistema virtual de recursos educativos digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -399,7 +399,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Joinner Enrique Osorio Martinez',
+          nombre: 'Joinner Enrique Osorio Martínez',
           cargo: 'Experto temático',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -416,13 +416,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Fredy Fabian Ortiz Segura',
+          nombre: 'Fredy Fabián Ortiz Segura',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Robinson Javier Ordoñez Barreiro',
+          nombre: 'Robinson Javier Ordóñez Barreiro',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -441,24 +441,24 @@ export default {
         },
         {
           nombre: 'Juan Pablo Rojas Polania',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Maria Carolina Tamayo Lopez',
+          nombre: 'María Carolina Tamayo López',
           cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'German Acosta Ramos',
+          nombre: 'Germán Acosta Ramos',
           cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

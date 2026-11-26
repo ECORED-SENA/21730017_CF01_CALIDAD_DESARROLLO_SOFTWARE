@@ -286,7 +286,7 @@
             .col-xl-8
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                 h5 Tabla 5.
-                span Ejemplo de aplicación del modelo en cascada:
+                span Ejemplo de aplicación del modelo en cascada
               .tabla-a(data-aos="zoom-in")
                 table
                   thead
@@ -458,7 +458,7 @@
             .col-xl-8
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                 h5 Tabla 7.
-                span Ejemplo de desarrollo incremental en un sistema de inventario:
+                span Ejemplo de desarrollo incremental en un sistema de inventario
               .tabla-a(data-aos="zoom-in")
                 table
                   thead
@@ -675,7 +675,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t2/img51.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6" data-aos="zoom-in").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -725,7 +725,7 @@
             .col-xl-8
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                 h5 Tabla 10.
-                span Ejemplos de uso aceptable:
+                span Ejemplos de uso aceptable
               .tabla-a(data-aos="zoom-in")
                 table
                   thead
@@ -744,7 +744,7 @@
                       td.texto-left Comprender la lógica básica de una función.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Automatización personal muy simple.
-                      td.texto-left Crear un script temporal para una tarea puntual.
+                      td.texto-left Crear un #[i script] temporal para una tarea puntual.
           .row.justify-content-center.align-items-center.mb-5
             .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
               figure
@@ -836,7 +836,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t2/img65.png", alt="" style="width: 350px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Cascada").ajuste-cajaAcordion.ajuste-vineta
               ul.fa-ul.mb-3
                 li.mb-0
@@ -881,7 +881,7 @@
                   | #[b Contexto:] sistemas que pueden construirse por módulos.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Iterativo").ajuste-cajaAcordion.ajuste-vineta
               ul.fa-ul.mb-3
                 li.mb-0

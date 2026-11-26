@@ -120,7 +120,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t3/img7.png", alt="" style="width: 300px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Calidad esperada").ajuste-cajaAcordion.ajuste-vineta
               p Corresponde a las condiciones establecidas en los requisitos, el diseño y los criterios técnicos.
               p.mb-3 #[b Riesgo:] el equipo puede construir sin una meta definida.
@@ -468,7 +468,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t3/img24.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6" data-aos="zoom-in").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -529,7 +529,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t3/img31.png", alt="" style="width: 400px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Portabilidad").ajuste-cajaAcordion.ajuste-vineta
               p Capacidad para funcionar en diferentes entornos tecnológicos.
               p.mb-0 #[b Ejemplo:] el sistema puede utilizarse desde distintos navegadores.

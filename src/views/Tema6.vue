@@ -21,8 +21,8 @@
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t6/img2.png", alt="" style="width: 350px").m-auto
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+        .col-xl(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Tipo de <i>software</i>").ajuste-cajaAcordion.ajuste-vineta
               p #[b Pregunta orientadora:] ¿qué clase de sistema se desarrollará o mejorará?
               p.mb-3 #[b Utilidad:] permite establecer el nivel de riesgo y los factores de calidad prioritarios.
@@ -36,8 +36,8 @@
               p #[b Pregunta orientadora:] ¿existen requisitos, procedimientos, manuales, registros y decisiones documentadas?
               p.mb-3 #[b Utilidad:] permite determinar el nivel de formalidad y trazabilidad disponible.
       .row.align-items-center.mb-5
-        .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+        .col-xl(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Problemas frecuentes").ajuste-cajaAcordion.ajuste-vineta
               p #[b Pregunta orientadora:] ¿qué fallas, retrasos, reprocesos o inconsistencias se presentan?
               p.mb-3 #[b Utilidad:] facilita la identificación de brechas y necesidades de calidad.
@@ -289,7 +289,7 @@
                   tbody
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Bajo
-                      td.texto-left Criterios #[i Ad hoc] documentados y buenas prácticas básicas.
+                      td.texto-left Criterios #[i ad hoc] documentados y buenas prácticas básicas.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Medio
                       td.texto-left Modelo de calidad combinado con procedimientos internos.
@@ -351,14 +351,14 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t6/img18.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
                       img(src='@/assets/curso/temas/t6/img19.png' ).m-auto
                   .box___card_sinbordes_p
                     h4.mb-3.estilo-text Madurez inicial
-                    p.mb-0.text-center La organización debe comenzar con prácticas básicas y criterios ad hoc documentados.
+                    p.mb-0.text-center La organización debe comenzar con prácticas básicas y criterios #[i ad hoc] documentados.
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -822,7 +822,7 @@
             h4 Anexo 1. Caso práctico de selección de modelo y estándar
             p.mb-0 Consulte el documento anexo «Caso práctico de selección de modelo y estándar» para fortalecer la aplicación de los criterios abordados en este componente.
           .col-xl-2
-            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_01_Caso_Practico_Seleccion_Modelo_Estandar.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_01_Caso_Practico_Seleccion_Modelo_Estandar.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
               

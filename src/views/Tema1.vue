@@ -22,7 +22,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img2.png", alt="" style="width: 300px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Organizar la solución").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Permite dividir el sistema en partes comprensibles, como módulos, componentes, interfaces y servicios.
             .row(titulo="Facilitar la construcción").ajuste-cajaAcordion.ajuste-vineta
@@ -31,7 +31,7 @@
               p.mb-3 Ayuda a identificar inconsistencias antes de iniciar la programación.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Mejorar la comunicación").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Facilita que el cliente, los analistas, los diseñadores, los desarrolladores y los evaluadores comprendan la solución propuesta.
             .row(titulo="Favorecer la calidad").ajuste-cajaAcordion.ajuste-vineta
@@ -131,7 +131,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img13.png", alt="" style="width: 300px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Necesidad principal").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 ¿Qué problema busca resolver el cliente?
             .row(titulo="Proceso actual").ajuste-cajaAcordion.ajuste-vineta
@@ -140,7 +140,7 @@
               p.mb-3 ¿Quiénes utilizarán el sistema y qué permisos tendrán?
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Información requerida").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 ¿Qué datos deben registrarse, consultarse, modificarse o eliminarse?
             .row(titulo="Reglas de negocio").ajuste-cajaAcordion.ajuste-vineta
@@ -264,7 +264,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t1/img23.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6" data-aos="zoom-in").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -363,7 +363,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img30.png", alt="" style="width: 300px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Claridad").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Los textos, botones y opciones deben ser comprensibles.
             .row(titulo="Consistencia").ajuste-cajaAcordion.ajuste-vineta
@@ -372,7 +372,7 @@
               p.mb-3 El usuario debe completar sus tareas sin pasos innecesarios.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Retroalimentación").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 El sistema debe informar el resultado de una acción o la ocurrencia de un error.
             .row(titulo="Accesibilidad").ajuste-cajaAcordion.ajuste-vineta
@@ -405,7 +405,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t1/img33.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6" data-aos="zoom-in").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
@@ -590,7 +590,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img47.png", alt="" style="width: 350px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Trazabilidad hacia adelante").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Relaciona los requisitos con el diseño, la construcción y las pruebas posteriores. Permite establecer cómo será atendida cada necesidad durante el desarrollo.
             .row(titulo="Trazabilidad hacia atrás").ajuste-cajaAcordion.ajuste-vineta
@@ -663,7 +663,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/temas/t1/img52.png', alt='' style="max-width: 400px").m-auto
             .col-xl-8(data-aos="fade-left")
-              SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in").mb-5
+              SlyderF(columnas="col-lg-6 col-xl-6" data-aos="zoom-in").mb-5
                 .tarjeta.color-acento-botones
                   .row.justify-content-center.mb-3
                     .col-12
